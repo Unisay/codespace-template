@@ -6,3 +6,4 @@ mkdir -p /home/codespace/.config/nix
 mv nix.conf ~/.config/nix/
 nix-env -iA nixpkgs.direnv
 echo "eval \"\$(direnv hook bash)\"" >>~/.bashrc
+echo "eval \"\$(direnv hook zsh)\"" >>~/.zshrc
